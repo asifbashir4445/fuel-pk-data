@@ -1,1 +1,15 @@
-data/current/verified_fuel_prices.json
+{
+  "status": "OFFICIALLY_VERIFIED",
+  "verificationStatus": "OFFICIALLY_VERIFIED_CANDIDATE",
+  "effectiveDate": "2026-08-25",
+  "authority": "Ministry of Energy - Petroleum Division",
+  "sourceDocumentUrl": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_25.8.2026.jpeg",
+  "sourcePageUrl": "https://petroleum.gov.pk/NewsDetail/OTY5MTI3NTItZjI5YS00ZTlkLTgxYmMtZDhkZTdlODYzNDk1",
+  "documentSha256": "414959bae67cfb0fcfb4f00fce7a340109b625290cb26083d51ebd0729a31f22",
+  "petrol_price": "341.98",
+  "hsd_price": "370.69",
+  "previous_petrol_price": "341.59",
+  "previous_hsd_price": "368.29",
+  "petrol_delta": "0.39",
+  "hsd_delta": "2.40"
+}
