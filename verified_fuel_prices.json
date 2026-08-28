@@ -1,15 +1,188 @@
 {
   "status": "OFFICIALLY_VERIFIED",
+  "verification_status": "OFFICIALLY_VERIFIED_CANDIDATE",
   "verificationStatus": "OFFICIALLY_VERIFIED_CANDIDATE",
-  "effectiveDate": "2026-08-25",
+  "effective_date": "2026-08-26",
+  "effectiveDate": "2026-08-26",
+  "source_authority": "Ministry of Energy - Petroleum Division",
   "authority": "Ministry of Energy - Petroleum Division",
-  "sourceDocumentUrl": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_25.8.2026.jpeg",
-  "sourcePageUrl": "https://petroleum.gov.pk/NewsDetail/OTY5MTI3NTItZjI5YS00ZTlkLTgxYmMtZDhkZTdlODYzNDk1",
-  "documentSha256": "414959bae67cfb0fcfb4f00fce7a340109b625290cb26083d51ebd0729a31f22",
-  "petrol_price": "341.98",
-  "hsd_price": "370.69",
-  "previous_petrol_price": "341.59",
-  "previous_hsd_price": "368.29",
-  "petrol_delta": "0.39",
-  "hsd_delta": "2.40"
+  "source_document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_26-27.8.2026.jpeg",
+  "sourceDocumentUrl": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_26-27.8.2026.jpeg",
+  "source_page_url": "https://petroleum.gov.pk/NewsDetail/MWE4MDZlMTUtMGQ1MS00ZTNkLWJlYjgtYzVlZjAzODllZDc1",
+  "sourcePageUrl": "https://petroleum.gov.pk/NewsDetail/MWE4MDZlMTUtMGQ1MS00ZTNkLWJlYjgtYzVlZjAzODllZDc1",
+  "document_filename": "Petrol_26-27.8.2026.jpeg",
+  "documentFilename": "Petrol_26-27.8.2026.jpeg",
+  "document_sha256": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+  "documentSha256": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+  "documentHash": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+  "verified_timestamp": "2026-08-28T13:18:42.904151+00:00",
+  "verifiedTimestamp": "2026-08-28T13:18:42.904151+00:00",
+  "petrol_price": "343.10",
+  "hsd_price": "371.80",
+  "previous_petrol_price": "341.98",
+  "previous_hsd_price": "370.69",
+  "petrol_delta": "1.12",
+  "hsd_delta": "1.11",
+  "petrol": {
+    "official_name": "Motor Spirit",
+    "officialName": "Motor Spirit",
+    "price": "343.10",
+    "previous_price": "341.98",
+    "previousPrice": "341.98",
+    "delta": "1.12",
+    "change": "1.12",
+    "change_type": "INCREASE",
+    "changeType": "INCREASE",
+    "currency": "PKR",
+    "unit": "litre",
+    "raw_evidence": "Motor Spirit | Prev: 341.98 | Current: 343.10 | Delta: 1.12 | Raw: Motor Spirit (MS) 341.98 343.10",
+    "rawEvidence": "Motor Spirit | Prev: 341.98 | Current: 343.10 | Delta: 1.12 | Raw: Motor Spirit (MS) 341.98 343.10"
+  },
+  "hsd": {
+    "official_name": "High Speed Diesel (HSD)",
+    "officialName": "High Speed Diesel (HSD)",
+    "price": "371.80",
+    "previous_price": "370.69",
+    "previousPrice": "370.69",
+    "delta": "1.11",
+    "change": "1.11",
+    "change_type": "INCREASE",
+    "changeType": "INCREASE",
+    "currency": "PKR",
+    "unit": "litre",
+    "raw_evidence": "High Speed Diesel (HSD) | Prev: 370.69 | Current: 371.80 | Delta: 1.11 | Raw: High Speed Diesel (HSD) 370.69 371.80 pL",
+    "rawEvidence": "High Speed Diesel (HSD) | Prev: 370.69 | Current: 371.80 | Delta: 1.11 | Raw: High Speed Diesel (HSD) 370.69 371.80 pL"
+  },
+  "validation_summary": {
+    "isValid": true,
+    "finalStatus": "OFFICIALLY_VERIFIED_CANDIDATE",
+    "gates": [
+      {
+        "gate": "SOURCE_DOMAIN_GATE",
+        "passed": true,
+        "details": "Authorized official domain (petroleum.gov.pk)"
+      },
+      {
+        "gate": "DOCUMENT_INTEGRITY_GATE",
+        "passed": true,
+        "details": "SHA256 verified (906dbc984d98...)"
+      },
+      {
+        "gate": "PRODUCT_PAIR_GATE",
+        "passed": true,
+        "details": "Both Petrol and HSD prices present"
+      },
+      {
+        "gate": "NUMERIC_VALIDITY_GATE",
+        "passed": true,
+        "details": "Prices within plausible range"
+      },
+      {
+        "gate": "MATHEMATICAL_GATE",
+        "passed": true,
+        "details": "Arithmetic verified or not applicable (single price)",
+        "subchecks": {
+          "petrol": {
+            "applicable": true,
+            "valid": true,
+            "previous_price": "341.98",
+            "change": "1.12",
+            "expected_new_price": "343.10",
+            "actual_new_price": "343.10",
+            "diff": "0.00",
+            "tolerance": "0.01",
+            "reason": "ARITHMETIC_CONSISTENCY_VERIFIED"
+          },
+          "hsd": {
+            "applicable": true,
+            "valid": true,
+            "previous_price": "370.69",
+            "change": "1.11",
+            "expected_new_price": "371.80",
+            "actual_new_price": "371.80",
+            "diff": "0.00",
+            "tolerance": "0.01",
+            "reason": "ARITHMETIC_CONSISTENCY_VERIFIED"
+          }
+        }
+      },
+      {
+        "gate": "RAW_EVIDENCE_GATE",
+        "passed": true,
+        "details": "Raw snippets preserved for extracted values"
+      },
+      {
+        "gate": "AMBIGUITY_GATE",
+        "passed": true,
+        "details": "No ambiguous values detected"
+      }
+    ],
+    "failureReasons": []
+  },
+  "validationSummary": {
+    "isValid": true,
+    "finalStatus": "OFFICIALLY_VERIFIED_CANDIDATE",
+    "gates": [
+      {
+        "gate": "SOURCE_DOMAIN_GATE",
+        "passed": true,
+        "details": "Authorized official domain (petroleum.gov.pk)"
+      },
+      {
+        "gate": "DOCUMENT_INTEGRITY_GATE",
+        "passed": true,
+        "details": "SHA256 verified (906dbc984d98...)"
+      },
+      {
+        "gate": "PRODUCT_PAIR_GATE",
+        "passed": true,
+        "details": "Both Petrol and HSD prices present"
+      },
+      {
+        "gate": "NUMERIC_VALIDITY_GATE",
+        "passed": true,
+        "details": "Prices within plausible range"
+      },
+      {
+        "gate": "MATHEMATICAL_GATE",
+        "passed": true,
+        "details": "Arithmetic verified or not applicable (single price)",
+        "subchecks": {
+          "petrol": {
+            "applicable": true,
+            "valid": true,
+            "previous_price": "341.98",
+            "change": "1.12",
+            "expected_new_price": "343.10",
+            "actual_new_price": "343.10",
+            "diff": "0.00",
+            "tolerance": "0.01",
+            "reason": "ARITHMETIC_CONSISTENCY_VERIFIED"
+          },
+          "hsd": {
+            "applicable": true,
+            "valid": true,
+            "previous_price": "370.69",
+            "change": "1.11",
+            "expected_new_price": "371.80",
+            "actual_new_price": "371.80",
+            "diff": "0.00",
+            "tolerance": "0.01",
+            "reason": "ARITHMETIC_CONSISTENCY_VERIFIED"
+          }
+        }
+      },
+      {
+        "gate": "RAW_EVIDENCE_GATE",
+        "passed": true,
+        "details": "Raw snippets preserved for extracted values"
+      },
+      {
+        "gate": "AMBIGUITY_GATE",
+        "passed": true,
+        "details": "No ambiguous values detected"
+      }
+    ],
+    "failureReasons": []
+  }
 }

@@ -1,0 +1,517 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-08-28T13:35:38.978152+00:00",
+  "total_candidates_recorded": 13,
+  "candidates": [
+    {
+      "candidate_id": "f16f21266e2e44d3",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol Notification 18.7.2026.jpg",
+      "source_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/NewsDetail/YTg2NTAxNDUtOGQxMS00OWE1LThmNjMtYjIzZGYyOWU2ZjM2",
+      "document_sha256": "52b855b74cf5c01a8d6e44bdc883c21b4c36da037e0103f50ee0bb68268460d8",
+      "document_type": "IMAGE",
+      "effective_date": null,
+      "status": "REJECTED_UNVERIFIABLE",
+      "rejection_reason": "MATHEMATICAL_VALIDATION_FAILED: PETROL arithmetic failed (MATHEMATICAL_MISMATCH: Calculated 85.00 vs Actual 88.64 (diff 3.64 > 0.01)); MATHEMATICAL_VALIDATION_FAILED: HSD arithmetic failed (MATHEMATICAL_MISMATCH: Calculated 75.82 vs Actual 79.46 (diff 3.64 > 0.01))",
+      "is_actionable": false,
+      "published_to_current": false,
+      "validation_summary": {
+        "isValid": false,
+        "finalStatus": "MATHEMATICAL_VALIDATION_FAILED",
+        "gates": [
+          {
+            "gate": "SOURCE_DOMAIN_GATE",
+            "passed": true,
+            "details": "Authorized official domain (petroleum.gov.pk)"
+          },
+          {
+            "gate": "DOCUMENT_INTEGRITY_GATE",
+            "passed": true,
+            "details": "SHA256 verified (52b855b74cf5...)"
+          },
+          {
+            "gate": "PRODUCT_PAIR_GATE",
+            "passed": true,
+            "details": "Both Petrol and HSD prices present"
+          },
+          {
+            "gate": "NUMERIC_VALIDITY_GATE",
+            "passed": true,
+            "details": "Prices within plausible range"
+          },
+          {
+            "gate": "MATHEMATICAL_GATE",
+            "passed": false,
+            "details": "Mathematical cross-check failed",
+            "subchecks": {
+              "petrol": {
+                "applicable": true,
+                "valid": false,
+                "previous_price": "80.00",
+                "change": "5.00",
+                "expected_new_price": "85.00",
+                "actual_new_price": "88.64",
+                "diff": "3.64",
+                "tolerance": "0.01",
+                "reason": "MATHEMATICAL_MISMATCH: Calculated 85.00 vs Actual 88.64 (diff 3.64 > 0.01)"
+              },
+              "hsd": {
+                "applicable": true,
+                "valid": false,
+                "previous_price": "70.82",
+                "change": "5.00",
+                "expected_new_price": "75.82",
+                "actual_new_price": "79.46",
+                "diff": "3.64",
+                "tolerance": "0.01",
+                "reason": "MATHEMATICAL_MISMATCH: Calculated 75.82 vs Actual 79.46 (diff 3.64 > 0.01)"
+              }
+            }
+          },
+          {
+            "gate": "RAW_EVIDENCE_GATE",
+            "passed": true,
+            "details": "Raw snippets preserved for extracted values"
+          },
+          {
+            "gate": "AMBIGUITY_GATE",
+            "passed": true,
+            "details": "No ambiguous values detected"
+          }
+        ],
+        "failureReasons": [
+          "MATHEMATICAL_VALIDATION_FAILED: PETROL arithmetic failed (MATHEMATICAL_MISMATCH: Calculated 85.00 vs Actual 88.64 (diff 3.64 > 0.01))",
+          "MATHEMATICAL_VALIDATION_FAILED: HSD arithmetic failed (MATHEMATICAL_MISMATCH: Calculated 75.82 vs Actual 79.46 (diff 3.64 > 0.01))"
+        ]
+      },
+      "recorded_at": "2026-08-28T13:35:38.977994+00:00"
+    },
+    {
+      "candidate_id": "489b17d50d795e98",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_26-27.8.2026.jpeg",
+      "source_page_url": "https://petroleum.gov.pk/NewsDetail/MWE4MDZlMTUtMGQ1MS00ZTNkLWJlYjgtYzVlZjAzODllZDc1",
+      "document_sha256": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+      "document_type": "JPEG",
+      "effective_date": "2026-08-26",
+      "status": "OFFICIALLY_VERIFIED_AND_PUBLISHED",
+      "is_actionable": true,
+      "published_to_current": true,
+      "petrol_price": "343.10",
+      "hsd_price": "371.80",
+      "recorded_at": "2026-08-28T13:18:42.906498+00:00"
+    },
+    {
+      "candidate_id": "2bb07d4628116b3d",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Prices of Petroleum Products and Petroleum Levy Notification w.e.f  4th July, 2026.jpg",
+      "source_page_url": "https://petroleum.gov.pk/NewsDetail/OWU0YzhkYjgtMGE3MS00YjgwLTk4YWItYmY5YzViNTE2M2Mw",
+      "document_sha256": "417f9b95933a27770b46f35f03b07135ecfafddffe9a04a6e4b2727cac25a8d7",
+      "document_type": "JPEG",
+      "effective_date": "2026-07-04",
+      "status": "OFFICIALLY_VERIFIED_HISTORICAL",
+      "is_actionable": false,
+      "published_to_current": false,
+      "petrol_price": "297.53",
+      "hsd_price": "309.50",
+      "recorded_at": "2026-08-26T09:34:23.238214+00:00",
+      "note": "HISTORICAL_CANDIDATE: Candidate effective date (2026-07-04) is older than current trusted effective date (2026-08-25). Overwrite rejected."
+    },
+    {
+      "candidate_id": "5fe3b60ef84e3288",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_29.7.2026.jpeg",
+      "source_page_url": "https://petroleum.gov.pk/NewsDetail/ZWIzMzc1N2YtY2NkMS00YzI1LThhZTItOGFmMWI3N2YzMTFh",
+      "document_sha256": "ed7dc1af6ddae6a64bd33dd147abd2f1597507ef0123936eb50907e34babf81b",
+      "document_type": "JPEG",
+      "effective_date": "2026-07-29",
+      "status": "OFFICIALLY_VERIFIED_AND_PUBLISHED",
+      "is_actionable": true,
+      "published_to_current": true,
+      "petrol_price": "335.81",
+      "hsd_price": "388.38",
+      "recorded_at": "2026-08-26T09:20:11.886135+00:00"
+    },
+    {
+      "candidate_id": "1984636660225010",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Misc/files/Prices%20of%20Petroleum%20Products%20and%20Petroleum%20Levy%20Notification%20w_e_f%20%204th%20July%2C%202026.pdf",
+      "source_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/NewsDetail/OWU0YzhkYjgtMGE3MS00YjgwLTk4YWItYmY5YzViNTE2M2Mw",
+      "document_sha256": "c28c8cb8d1bb619fe76dc1b06195ede05656113ae48248865b03849fe5e309f3",
+      "document_type": "PDF",
+      "effective_date": null,
+      "status": "REJECTED_UNVERIFIABLE",
+      "rejection_reason": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD",
+      "is_actionable": false,
+      "published_to_current": false,
+      "validation_summary": {
+        "isValid": false,
+        "finalStatus": "INCOMPLETE_PRODUCT_EXTRACTION",
+        "gates": [
+          {
+            "gate": "SOURCE_DOMAIN_GATE",
+            "passed": true,
+            "details": "Authorized official domain (petroleum.gov.pk)"
+          },
+          {
+            "gate": "DOCUMENT_INTEGRITY_GATE",
+            "passed": true,
+            "details": "SHA256 verified (c28c8cb8d1bb...)"
+          },
+          {
+            "gate": "PRODUCT_PAIR_GATE",
+            "passed": false,
+            "details": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+          },
+          {
+            "gate": "MATHEMATICAL_GATE",
+            "passed": true,
+            "details": "Arithmetic verified or not applicable (single price)",
+            "subchecks": {}
+          },
+          {
+            "gate": "AMBIGUITY_GATE",
+            "passed": true,
+            "details": "No ambiguous values detected"
+          }
+        ],
+        "failureReasons": [
+          "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+        ]
+      },
+      "recorded_at": "2026-08-26T09:19:58.061583+00:00"
+    },
+    {
+      "candidate_id": "a520595b0715484c",
+      "title": "Petroleum Levy Notifications from 5th-21st August, 2026",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Misc/files/PL%20Notification%205-21ugust%202026.pdf",
+      "source_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "document_sha256": "8dbc53d4afa93d6189029541b749437f89ff47412605a0e806437ec35f14fd11",
+      "document_type": "PDF",
+      "effective_date": "2026-08-21",
+      "status": "REJECTED_UNVERIFIABLE",
+      "rejection_reason": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD",
+      "is_actionable": false,
+      "published_to_current": false,
+      "validation_summary": {
+        "isValid": false,
+        "finalStatus": "INCOMPLETE_PRODUCT_EXTRACTION",
+        "gates": [
+          {
+            "gate": "SOURCE_DOMAIN_GATE",
+            "passed": true,
+            "details": "Authorized official domain (petroleum.gov.pk)"
+          },
+          {
+            "gate": "DOCUMENT_INTEGRITY_GATE",
+            "passed": true,
+            "details": "SHA256 verified (8dbc53d4afa9...)"
+          },
+          {
+            "gate": "PRODUCT_PAIR_GATE",
+            "passed": false,
+            "details": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+          },
+          {
+            "gate": "MATHEMATICAL_GATE",
+            "passed": true,
+            "details": "Arithmetic verified or not applicable (single price)",
+            "subchecks": {}
+          },
+          {
+            "gate": "AMBIGUITY_GATE",
+            "passed": true,
+            "details": "No ambiguous values detected"
+          }
+        ],
+        "failureReasons": [
+          "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+        ]
+      },
+      "recorded_at": "2026-08-26T09:18:57.630928+00:00"
+    },
+    {
+      "candidate_id": "4b7afd73c5ad4b3a",
+      "title": "Notification Image Asset",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Misc/images/August_Month_Icon(1).png",
+      "source_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "document_sha256": "72fb4c5ca580200521e395198c0939614a7ec2f95a4155a089befc306bb0d6f7",
+      "document_type": "IMAGE",
+      "effective_date": null,
+      "status": "REJECTED_UNVERIFIABLE",
+      "rejection_reason": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD",
+      "is_actionable": false,
+      "published_to_current": false,
+      "validation_summary": {
+        "isValid": false,
+        "finalStatus": "INCOMPLETE_PRODUCT_EXTRACTION",
+        "gates": [
+          {
+            "gate": "SOURCE_DOMAIN_GATE",
+            "passed": true,
+            "details": "Authorized official domain (petroleum.gov.pk)"
+          },
+          {
+            "gate": "DOCUMENT_INTEGRITY_GATE",
+            "passed": true,
+            "details": "SHA256 verified (72fb4c5ca580...)"
+          },
+          {
+            "gate": "PRODUCT_PAIR_GATE",
+            "passed": false,
+            "details": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+          },
+          {
+            "gate": "MATHEMATICAL_GATE",
+            "passed": true,
+            "details": "Arithmetic verified or not applicable (single price)",
+            "subchecks": {}
+          },
+          {
+            "gate": "AMBIGUITY_GATE",
+            "passed": true,
+            "details": "No ambiguous values detected"
+          }
+        ],
+        "failureReasons": [
+          "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+        ]
+      },
+      "recorded_at": "2026-08-26T09:01:14.631080+00:00"
+    },
+    {
+      "candidate_id": "d6cdf1c68ca5dd87",
+      "title": "Notification Image Asset",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Misc/images/newicon.jpg",
+      "source_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "document_sha256": "31129bac91ca4bf2068f84c6ae13152a0411cd2107aca986b3f81c7ee0a9c863",
+      "document_type": "IMAGE",
+      "effective_date": null,
+      "status": "REJECTED_UNVERIFIABLE",
+      "rejection_reason": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD",
+      "is_actionable": false,
+      "published_to_current": false,
+      "validation_summary": {
+        "isValid": false,
+        "finalStatus": "INCOMPLETE_PRODUCT_EXTRACTION",
+        "gates": [
+          {
+            "gate": "SOURCE_DOMAIN_GATE",
+            "passed": true,
+            "details": "Authorized official domain (petroleum.gov.pk)"
+          },
+          {
+            "gate": "DOCUMENT_INTEGRITY_GATE",
+            "passed": true,
+            "details": "SHA256 verified (31129bac91ca...)"
+          },
+          {
+            "gate": "PRODUCT_PAIR_GATE",
+            "passed": false,
+            "details": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+          },
+          {
+            "gate": "MATHEMATICAL_GATE",
+            "passed": true,
+            "details": "Arithmetic verified or not applicable (single price)",
+            "subchecks": {}
+          },
+          {
+            "gate": "AMBIGUITY_GATE",
+            "passed": true,
+            "details": "No ambiguous values detected"
+          }
+        ],
+        "failureReasons": [
+          "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+        ]
+      },
+      "recorded_at": "2026-08-26T09:01:02.556629+00:00"
+    },
+    {
+      "candidate_id": "0e1f8dda7393ea70",
+      "title": "Notification Image Asset",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Misc/images/iconpdf.jpg",
+      "source_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "document_sha256": "18f61ad9c6e1458757ec0ada345dcd7f59d7c7dea3a22de0c80dae18e8ae26eb",
+      "document_type": "IMAGE",
+      "effective_date": null,
+      "status": "REJECTED_UNVERIFIABLE",
+      "rejection_reason": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD",
+      "is_actionable": false,
+      "published_to_current": false,
+      "validation_summary": {
+        "isValid": false,
+        "finalStatus": "INCOMPLETE_PRODUCT_EXTRACTION",
+        "gates": [
+          {
+            "gate": "SOURCE_DOMAIN_GATE",
+            "passed": true,
+            "details": "Authorized official domain (petroleum.gov.pk)"
+          },
+          {
+            "gate": "DOCUMENT_INTEGRITY_GATE",
+            "passed": true,
+            "details": "SHA256 verified (18f61ad9c6e1...)"
+          },
+          {
+            "gate": "PRODUCT_PAIR_GATE",
+            "passed": false,
+            "details": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+          },
+          {
+            "gate": "MATHEMATICAL_GATE",
+            "passed": true,
+            "details": "Arithmetic verified or not applicable (single price)",
+            "subchecks": {}
+          },
+          {
+            "gate": "AMBIGUITY_GATE",
+            "passed": true,
+            "details": "No ambiguous values detected"
+          }
+        ],
+        "failureReasons": [
+          "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+        ]
+      },
+      "recorded_at": "2026-08-26T09:00:51.154340+00:00"
+    },
+    {
+      "candidate_id": "077f7d6e4044fb56",
+      "title": "Notification Image Asset",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Setting/gov_logo.png",
+      "source_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "document_sha256": "edd4121ea7af8aa6ec76f210dc23cc44a907e11b19eea16b1c69d83035400ee0",
+      "document_type": "IMAGE",
+      "effective_date": null,
+      "status": "REJECTED_UNVERIFIABLE",
+      "rejection_reason": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD",
+      "is_actionable": false,
+      "published_to_current": false,
+      "validation_summary": {
+        "isValid": false,
+        "finalStatus": "INCOMPLETE_PRODUCT_EXTRACTION",
+        "gates": [
+          {
+            "gate": "SOURCE_DOMAIN_GATE",
+            "passed": true,
+            "details": "Authorized official domain (petroleum.gov.pk)"
+          },
+          {
+            "gate": "DOCUMENT_INTEGRITY_GATE",
+            "passed": true,
+            "details": "SHA256 verified (edd4121ea7af...)"
+          },
+          {
+            "gate": "PRODUCT_PAIR_GATE",
+            "passed": false,
+            "details": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+          },
+          {
+            "gate": "MATHEMATICAL_GATE",
+            "passed": true,
+            "details": "Arithmetic verified or not applicable (single price)",
+            "subchecks": {}
+          },
+          {
+            "gate": "AMBIGUITY_GATE",
+            "passed": true,
+            "details": "No ambiguous values detected"
+          }
+        ],
+        "failureReasons": [
+          "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+        ]
+      },
+      "recorded_at": "2026-08-26T08:58:54.818264+00:00"
+    },
+    {
+      "candidate_id": "414959bae67cfb0f",
+      "title": "Prices of Petroleum Products Notification on 25th August, 2026",
+      "document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_25.8.2026.jpeg",
+      "source_page_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_25.8.2026.jpeg",
+      "document_sha256": "414959bae67cfb0fcfb4f00fce7a340109b625290cb26083d51ebd0729a31f22",
+      "document_type": "JPEG",
+      "effective_date": "2026-08-25",
+      "status": "OFFICIALLY_VERIFIED_AND_PUBLISHED",
+      "is_actionable": true,
+      "published_to_current": true,
+      "petrol_price": "341.98",
+      "hsd_price": "370.69",
+      "recorded_at": "2026-08-26T08:48:15.890873+00:00"
+    },
+    {
+      "candidate_id": "ea1099ae1f2e2abf",
+      "title": "Notification Image Asset",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Misc/images/July_Month_Icon(1).png",
+      "source_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "document_sha256": "f7b7e5bc113239819216459081c1ae345bb31fce3947fc8846105c9925572b4a",
+      "document_type": "IMAGE",
+      "effective_date": null,
+      "status": "REJECTED_UNVERIFIABLE",
+      "rejection_reason": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD",
+      "is_actionable": false,
+      "published_to_current": false,
+      "validation_summary": {
+        "isValid": false,
+        "finalStatus": "INCOMPLETE_PRODUCT_EXTRACTION",
+        "gates": [
+          {
+            "gate": "SOURCE_DOMAIN_GATE",
+            "passed": true,
+            "details": "Authorized official domain (petroleum.gov.pk)"
+          },
+          {
+            "gate": "DOCUMENT_INTEGRITY_GATE",
+            "passed": true,
+            "details": "SHA256 verified (f7b7e5bc1132...)"
+          },
+          {
+            "gate": "PRODUCT_PAIR_GATE",
+            "passed": false,
+            "details": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+          },
+          {
+            "gate": "MATHEMATICAL_GATE",
+            "passed": true,
+            "details": "Arithmetic verified or not applicable (single price)",
+            "subchecks": {}
+          },
+          {
+            "gate": "AMBIGUITY_GATE",
+            "passed": true,
+            "details": "No ambiguous values detected"
+          }
+        ],
+        "failureReasons": [
+          "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+        ]
+      },
+      "recorded_at": "2026-08-25T12:42:39.928650+00:00"
+    },
+    {
+      "candidate_id": "70d5306c576fdaf0",
+      "title": "Direct Official Price Notification PDF",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Misc/files/Petrol%20Notification-1%2026_6_2026.pdf",
+      "source_page_url": "https://petroleum.gov.pk/SiteImage/Misc/files/Petrol%20Notification-1%2026_6_2026.pdf",
+      "document_sha256": "70d5306c576fdaf00704146cd600389e062e10d684f36f129742aa295d5fdf6f",
+      "document_type": "PDF",
+      "effective_date": null,
+      "status": "OFFICIALLY_VERIFIED_HISTORICAL",
+      "is_actionable": true,
+      "published_to_current": false,
+      "petrol_price": "299.50",
+      "hsd_price": "311.47",
+      "recorded_at": "2026-08-25T12:42:39.166506+00:00"
+    }
+  ]
+}

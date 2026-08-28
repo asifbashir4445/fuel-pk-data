@@ -1,0 +1,564 @@
+{
+  "execution_id": "exec_20260828_133510",
+  "timestamp_utc": "2026-08-28T13:35:10.692731+00:00",
+  "mode": "live",
+  "decision": "ALL_CANDIDATES_UNVERIFIABLE",
+  "source_connectivity": {
+    "reachable": true,
+    "host": "petroleum.gov.pk",
+    "port": 443,
+    "latency_ms": 259.46,
+    "details": "Successfully connected to petroleum.gov.pk:443 (259.46 ms)"
+  },
+  "discovery_summary": {
+    "strategy": "ALL",
+    "total_discovered": 5,
+    "errors_count": 1
+  },
+  "total_candidates_evaluated": 5,
+  "candidates_evaluated": [
+    {
+      "candidateId": "a520595b0715484c",
+      "sourceDomain": "petroleum.gov.pk",
+      "sourcePageUrl": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detailPageUrl": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "documentUrl": "https://petroleum.gov.pk/SiteImage/Misc/files/PL%20Notification%205-21ugust%202026.pdf",
+      "title": "Petroleum Levy Notifications from 5th-21st August, 2026",
+      "notificationDate": "2026-08-21",
+      "effectiveDate": null,
+      "discoveryTimestamp": "2026-08-28T13:35:16.408665+00:00",
+      "documentFilename": "PL%20Notification%205-21ugust%202026.pdf",
+      "documentType": "PDF",
+      "documentHash": null,
+      "discoveryMethod": "STRATEGY_A_DATE_WISE_LISTING",
+      "candidateStatus": "DISCOVERED_CANDIDATE",
+      "lifecycle_state": "REJECTED",
+      "discovery_strategy": "STRATEGY_A_DATE_WISE_LISTING",
+      "listing_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Misc/files/PL%20Notification%205-21ugust%202026.pdf",
+      "document_type": "PDF",
+      "score": 90,
+      "signals": [
+        "DIRECT_LISTING_ATTACHMENT(PDF)"
+      ],
+      "freshness": {
+        "status": "INVALID",
+        "reason": "DOWNLOAD_FAILED: HTTP_ERROR_404: Not Found",
+        "is_actionable": false
+      }
+    },
+    {
+      "candidateId": "489b17d50d795e98",
+      "sourceDomain": "petroleum.gov.pk",
+      "sourcePageUrl": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detailPageUrl": "https://petroleum.gov.pk/NewsDetail/MWE4MDZlMTUtMGQ1MS00ZTNkLWJlYjgtYzVlZjAzODllZDc1",
+      "documentUrl": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_26-27.8.2026.jpeg",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "notificationDate": "2026-08-27",
+      "effectiveDate": null,
+      "discoveryTimestamp": "2026-08-28T13:35:17.431037+00:00",
+      "documentFilename": "Petrol_26-27.8.2026.jpeg",
+      "documentType": "IMAGE",
+      "documentHash": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+      "discoveryMethod": "STRATEGY_A_DATE_WISE_LISTING",
+      "candidateStatus": "DISCOVERED_CANDIDATE",
+      "lifecycle_state": "FRESHNESS_EVALUATED",
+      "discovery_strategy": "STRATEGY_A_DATE_WISE_LISTING",
+      "listing_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/NewsDetail/MWE4MDZlMTUtMGQ1MS00ZTNkLWJlYjgtYzVlZjAzODllZDc1",
+      "document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_26-27.8.2026.jpeg",
+      "document_type": "IMAGE",
+      "score": 85,
+      "signals": [
+        "PRODUCT_KW(ms): +30",
+        "NEWS_DETAIL_PATH: +25",
+        "CALENDAR_DAY_LINK(26): +30",
+        "DOC_ATTACHMENT(IMAGE)"
+      ],
+      "document_hash": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+      "freshness": {
+        "status": "KNOWN",
+        "reason": "KNOWN_DOCUMENT_IDENTICAL_HASH",
+        "document_hash": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+        "registered_at": "2026-08-28T13:18:42.904167Z",
+        "date_info": {
+          "raw_text": "Ministry of Energy (Petroleum Division)",
+          "iso_date": null,
+          "day": null,
+          "month": null,
+          "year": null,
+          "is_wef": false,
+          "is_correction": false
+        },
+        "is_actionable": false
+      },
+      "is_actionable": false,
+      "action_taken": "SKIPPED_KNOWN_UNCHANGED"
+    },
+    {
+      "candidateId": "2bb07d4628116b3d",
+      "sourceDomain": "petroleum.gov.pk",
+      "sourcePageUrl": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detailPageUrl": "https://petroleum.gov.pk/NewsDetail/OWU0YzhkYjgtMGE3MS00YjgwLTk4YWItYmY5YzViNTE2M2Mw",
+      "documentUrl": "https://petroleum.gov.pk/SiteImage/NewsEvents/Prices of Petroleum Products and Petroleum Levy Notification w.e.f  4th July, 2026.jpg",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "notificationDate": null,
+      "effectiveDate": "2026-07-04",
+      "discoveryTimestamp": "2026-08-28T13:35:18.475055+00:00",
+      "documentFilename": "Prices of Petroleum Products and Petroleum Levy Notification w.e.f  4th July, 2026.jpg",
+      "documentType": "IMAGE",
+      "documentHash": "417f9b95933a27770b46f35f03b07135ecfafddffe9a04a6e4b2727cac25a8d7",
+      "discoveryMethod": "STRATEGY_A_DATE_WISE_LISTING",
+      "candidateStatus": "DISCOVERED_CANDIDATE",
+      "lifecycle_state": "FRESHNESS_EVALUATED",
+      "discovery_strategy": "STRATEGY_A_DATE_WISE_LISTING",
+      "listing_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/NewsDetail/OWU0YzhkYjgtMGE3MS00YjgwLTk4YWItYmY5YzViNTE2M2Mw",
+      "document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Prices of Petroleum Products and Petroleum Levy Notification w.e.f  4th July, 2026.jpg",
+      "document_type": "IMAGE",
+      "score": 85,
+      "signals": [
+        "PRODUCT_KW(ms): +30",
+        "NEWS_DETAIL_PATH: +25",
+        "CALENDAR_DAY_LINK(4): +30",
+        "DOC_ATTACHMENT(IMAGE)"
+      ],
+      "document_hash": "417f9b95933a27770b46f35f03b07135ecfafddffe9a04a6e4b2727cac25a8d7",
+      "freshness": {
+        "status": "KNOWN",
+        "reason": "KNOWN_DOCUMENT_IDENTICAL_HASH",
+        "document_hash": "417f9b95933a27770b46f35f03b07135ecfafddffe9a04a6e4b2727cac25a8d7",
+        "registered_at": "2026-08-26T09:34:23.236844Z",
+        "date_info": {
+          "raw_text": "Ministry of Energy (Petroleum Division)",
+          "iso_date": null,
+          "day": null,
+          "month": null,
+          "year": null,
+          "is_wef": false,
+          "is_correction": false
+        },
+        "is_actionable": false
+      },
+      "is_actionable": false,
+      "action_taken": "SKIPPED_KNOWN_UNCHANGED"
+    },
+    {
+      "candidateId": "1984636660225010",
+      "sourceDomain": "petroleum.gov.pk",
+      "sourcePageUrl": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detailPageUrl": "https://petroleum.gov.pk/NewsDetail/OWU0YzhkYjgtMGE3MS00YjgwLTk4YWItYmY5YzViNTE2M2Mw",
+      "documentUrl": "https://petroleum.gov.pk/SiteImage/Misc/files/Prices%20of%20Petroleum%20Products%20and%20Petroleum%20Levy%20Notification%20w_e_f%20%204th%20July%2C%202026.pdf",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "notificationDate": null,
+      "effectiveDate": null,
+      "discoveryTimestamp": "2026-08-28T13:35:18.475119+00:00",
+      "documentFilename": "Prices%20of%20Petroleum%20Products%20and%20Petroleum%20Levy%20Notification%20w_e_f%20%204th%20July%2C%202026.pdf",
+      "documentType": "PDF",
+      "documentHash": null,
+      "discoveryMethod": "STRATEGY_A_DATE_WISE_LISTING",
+      "candidateStatus": "DISCOVERED_CANDIDATE",
+      "lifecycle_state": "REJECTED",
+      "discovery_strategy": "STRATEGY_A_DATE_WISE_LISTING",
+      "listing_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/NewsDetail/OWU0YzhkYjgtMGE3MS00YjgwLTk4YWItYmY5YzViNTE2M2Mw",
+      "document_url": "https://petroleum.gov.pk/SiteImage/Misc/files/Prices%20of%20Petroleum%20Products%20and%20Petroleum%20Levy%20Notification%20w_e_f%20%204th%20July%2C%202026.pdf",
+      "document_type": "PDF",
+      "score": 85,
+      "signals": [
+        "PRODUCT_KW(ms): +30",
+        "NEWS_DETAIL_PATH: +25",
+        "CALENDAR_DAY_LINK(4): +30",
+        "DOC_ATTACHMENT(PDF)"
+      ],
+      "freshness": {
+        "status": "INVALID",
+        "reason": "DOWNLOAD_FAILED: HTTP_ERROR_404: Not Found",
+        "is_actionable": false
+      }
+    },
+    {
+      "candidateId": "f16f21266e2e44d3",
+      "sourceDomain": "petroleum.gov.pk",
+      "sourcePageUrl": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detailPageUrl": "https://petroleum.gov.pk/NewsDetail/YTg2NTAxNDUtOGQxMS00OWE1LThmNjMtYjIzZGYyOWU2ZjM2",
+      "documentUrl": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol Notification 18.7.2026.jpg",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "notificationDate": "2026-07-18",
+      "effectiveDate": null,
+      "discoveryTimestamp": "2026-08-28T13:35:19.535019+00:00",
+      "documentFilename": "Petrol Notification 18.7.2026.jpg",
+      "documentType": "IMAGE",
+      "documentHash": "52b855b74cf5c01a8d6e44bdc883c21b4c36da037e0103f50ee0bb68268460d8",
+      "discoveryMethod": "STRATEGY_A_DATE_WISE_LISTING",
+      "candidateStatus": "DISCOVERED_CANDIDATE",
+      "lifecycle_state": "REJECTED",
+      "discovery_strategy": "STRATEGY_A_DATE_WISE_LISTING",
+      "listing_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/NewsDetail/YTg2NTAxNDUtOGQxMS00OWE1LThmNjMtYjIzZGYyOWU2ZjM2",
+      "document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol Notification 18.7.2026.jpg",
+      "document_type": "IMAGE",
+      "score": 85,
+      "signals": [
+        "PRODUCT_KW(ms): +30",
+        "NEWS_DETAIL_PATH: +25",
+        "CALENDAR_DAY_LINK(18): +30",
+        "DOC_ATTACHMENT(IMAGE)"
+      ],
+      "document_hash": "52b855b74cf5c01a8d6e44bdc883c21b4c36da037e0103f50ee0bb68268460d8",
+      "freshness": {
+        "status": "NEW",
+        "reason": "NEW_UNPROCESSED_OFFICIAL_DOCUMENT",
+        "document_hash": "52b855b74cf5c01a8d6e44bdc883c21b4c36da037e0103f50ee0bb68268460d8",
+        "date_info": {
+          "raw_text": "Ministry of Energy (Petroleum Division)",
+          "iso_date": null,
+          "day": null,
+          "month": null,
+          "year": null,
+          "is_wef": false,
+          "is_correction": false
+        },
+        "is_actionable": true
+      },
+      "extraction": {
+        "recordType": "OFFICIAL_PRICE_EXTRACTION",
+        "authority": "Ministry of Energy - Petroleum Division",
+        "sourceUrl": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol Notification 18.7.2026.jpg",
+        "notificationPageUrl": "https://petroleum.gov.pk/NewsDetail/YTg2NTAxNDUtOGQxMS00OWE1LThmNjMtYjIzZGYyOWU2ZjM2",
+        "documentHash": "52b855b74cf5c01a8d6e44bdc883c21b4c36da037e0103f50ee0bb68268460d8",
+        "documentType": "JPEG",
+        "notificationReference": "PRESS RELEASE",
+        "publicationDate": "2026-07-11",
+        "effectiveDate": "2026-07-18",
+        "extractedAt": "2026-08-28T13:35:38.977214+00:00",
+        "products": {
+          "petrol": {
+            "officialName": "Motor Spirit",
+            "price": "88.64",
+            "previousPrice": "80.00",
+            "change": "5.00",
+            "changeType": "INCREASE",
+            "currency": "PKR",
+            "unit": "litre",
+            "rawEvidence": "Motor Spirit | Prev: 80.00 | Current: 88.64 | Delta: 5.00 | Raw: Motor Gasoline/ Motor Spirit 80.00 88.64 5.00",
+            "pageNumber": 1
+          },
+          "hsd": {
+            "officialName": "High Speed Diesel (HSD)",
+            "price": "79.46",
+            "previousPrice": "70.82",
+            "change": "5.00",
+            "changeType": "INCREASE",
+            "currency": "PKR",
+            "unit": "litre",
+            "rawEvidence": "High Speed Diesel (HSD) | Prev: 70.82 | Current: 79.46 | Delta: 5.00 | Raw: High Speed Diesel (HSD) 70.82 79.46 5.00",
+            "pageNumber": 1
+          }
+        },
+        "extractionMethod": "IMAGE_OCR_TABLE_PARSER",
+        "status": "MATHEMATICAL_VALIDATION_FAILED",
+        "validatedAt": "2026-08-28T13:35:38.977969+00:00",
+        "validationSummary": {
+          "isValid": false,
+          "finalStatus": "MATHEMATICAL_VALIDATION_FAILED",
+          "gates": [
+            {
+              "gate": "SOURCE_DOMAIN_GATE",
+              "passed": true,
+              "details": "Authorized official domain (petroleum.gov.pk)"
+            },
+            {
+              "gate": "DOCUMENT_INTEGRITY_GATE",
+              "passed": true,
+              "details": "SHA256 verified (52b855b74cf5...)"
+            },
+            {
+              "gate": "PRODUCT_PAIR_GATE",
+              "passed": true,
+              "details": "Both Petrol and HSD prices present"
+            },
+            {
+              "gate": "NUMERIC_VALIDITY_GATE",
+              "passed": true,
+              "details": "Prices within plausible range"
+            },
+            {
+              "gate": "MATHEMATICAL_GATE",
+              "passed": false,
+              "details": "Mathematical cross-check failed",
+              "subchecks": {
+                "petrol": {
+                  "applicable": true,
+                  "valid": false,
+                  "previous_price": "80.00",
+                  "change": "5.00",
+                  "expected_new_price": "85.00",
+                  "actual_new_price": "88.64",
+                  "diff": "3.64",
+                  "tolerance": "0.01",
+                  "reason": "MATHEMATICAL_MISMATCH: Calculated 85.00 vs Actual 88.64 (diff 3.64 > 0.01)"
+                },
+                "hsd": {
+                  "applicable": true,
+                  "valid": false,
+                  "previous_price": "70.82",
+                  "change": "5.00",
+                  "expected_new_price": "75.82",
+                  "actual_new_price": "79.46",
+                  "diff": "3.64",
+                  "tolerance": "0.01",
+                  "reason": "MATHEMATICAL_MISMATCH: Calculated 75.82 vs Actual 79.46 (diff 3.64 > 0.01)"
+                }
+              }
+            },
+            {
+              "gate": "RAW_EVIDENCE_GATE",
+              "passed": true,
+              "details": "Raw snippets preserved for extracted values"
+            },
+            {
+              "gate": "AMBIGUITY_GATE",
+              "passed": true,
+              "details": "No ambiguous values detected"
+            }
+          ],
+          "failureReasons": [
+            "MATHEMATICAL_VALIDATION_FAILED: PETROL arithmetic failed (MATHEMATICAL_MISMATCH: Calculated 85.00 vs Actual 88.64 (diff 3.64 > 0.01))",
+            "MATHEMATICAL_VALIDATION_FAILED: HSD arithmetic failed (MATHEMATICAL_MISMATCH: Calculated 75.82 vs Actual 79.46 (diff 3.64 > 0.01))"
+          ]
+        }
+      }
+    }
+  ],
+  "selected_candidate": {
+    "candidateId": "a520595b0715484c",
+    "sourceDomain": "petroleum.gov.pk",
+    "sourcePageUrl": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+    "detailPageUrl": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+    "documentUrl": "https://petroleum.gov.pk/SiteImage/Misc/files/PL%20Notification%205-21ugust%202026.pdf",
+    "title": "Petroleum Levy Notifications from 5th-21st August, 2026",
+    "notificationDate": "2026-08-21",
+    "effectiveDate": null,
+    "discoveryTimestamp": "2026-08-28T13:35:16.408665+00:00",
+    "documentFilename": "PL%20Notification%205-21ugust%202026.pdf",
+    "documentType": "PDF",
+    "documentHash": null,
+    "discoveryMethod": "STRATEGY_A_DATE_WISE_LISTING",
+    "candidateStatus": "DISCOVERED_CANDIDATE",
+    "lifecycle_state": "REJECTED",
+    "discovery_strategy": "STRATEGY_A_DATE_WISE_LISTING",
+    "listing_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+    "detail_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+    "document_url": "https://petroleum.gov.pk/SiteImage/Misc/files/PL%20Notification%205-21ugust%202026.pdf",
+    "document_type": "PDF",
+    "score": 90,
+    "signals": [
+      "DIRECT_LISTING_ATTACHMENT(PDF)"
+    ],
+    "freshness": {
+      "status": "INVALID",
+      "reason": "DOWNLOAD_FAILED: HTTP_ERROR_404: Not Found",
+      "is_actionable": false
+    }
+  },
+  "publication_details": null,
+  "current_verified_artifact": {
+    "status": "OFFICIALLY_VERIFIED",
+    "verification_status": "OFFICIALLY_VERIFIED_CANDIDATE",
+    "verificationStatus": "OFFICIALLY_VERIFIED_CANDIDATE",
+    "effective_date": "2026-08-26",
+    "effectiveDate": "2026-08-26",
+    "source_authority": "Ministry of Energy - Petroleum Division",
+    "authority": "Ministry of Energy - Petroleum Division",
+    "source_document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_26-27.8.2026.jpeg",
+    "sourceDocumentUrl": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_26-27.8.2026.jpeg",
+    "source_page_url": "https://petroleum.gov.pk/NewsDetail/MWE4MDZlMTUtMGQ1MS00ZTNkLWJlYjgtYzVlZjAzODllZDc1",
+    "sourcePageUrl": "https://petroleum.gov.pk/NewsDetail/MWE4MDZlMTUtMGQ1MS00ZTNkLWJlYjgtYzVlZjAzODllZDc1",
+    "document_filename": "Petrol_26-27.8.2026.jpeg",
+    "documentFilename": "Petrol_26-27.8.2026.jpeg",
+    "document_sha256": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+    "documentSha256": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+    "documentHash": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
+    "verified_timestamp": "2026-08-28T13:18:42.904151+00:00",
+    "verifiedTimestamp": "2026-08-28T13:18:42.904151+00:00",
+    "petrol_price": "343.10",
+    "hsd_price": "371.80",
+    "previous_petrol_price": "341.98",
+    "previous_hsd_price": "370.69",
+    "petrol_delta": "1.12",
+    "hsd_delta": "1.11",
+    "petrol": {
+      "official_name": "Motor Spirit",
+      "officialName": "Motor Spirit",
+      "price": "343.10",
+      "previous_price": "341.98",
+      "previousPrice": "341.98",
+      "delta": "1.12",
+      "change": "1.12",
+      "change_type": "INCREASE",
+      "changeType": "INCREASE",
+      "currency": "PKR",
+      "unit": "litre",
+      "raw_evidence": "Motor Spirit | Prev: 341.98 | Current: 343.10 | Delta: 1.12 | Raw: Motor Spirit (MS) 341.98 343.10",
+      "rawEvidence": "Motor Spirit | Prev: 341.98 | Current: 343.10 | Delta: 1.12 | Raw: Motor Spirit (MS) 341.98 343.10"
+    },
+    "hsd": {
+      "official_name": "High Speed Diesel (HSD)",
+      "officialName": "High Speed Diesel (HSD)",
+      "price": "371.80",
+      "previous_price": "370.69",
+      "previousPrice": "370.69",
+      "delta": "1.11",
+      "change": "1.11",
+      "change_type": "INCREASE",
+      "changeType": "INCREASE",
+      "currency": "PKR",
+      "unit": "litre",
+      "raw_evidence": "High Speed Diesel (HSD) | Prev: 370.69 | Current: 371.80 | Delta: 1.11 | Raw: High Speed Diesel (HSD) 370.69 371.80 pL",
+      "rawEvidence": "High Speed Diesel (HSD) | Prev: 370.69 | Current: 371.80 | Delta: 1.11 | Raw: High Speed Diesel (HSD) 370.69 371.80 pL"
+    },
+    "validation_summary": {
+      "isValid": true,
+      "finalStatus": "OFFICIALLY_VERIFIED_CANDIDATE",
+      "gates": [
+        {
+          "gate": "SOURCE_DOMAIN_GATE",
+          "passed": true,
+          "details": "Authorized official domain (petroleum.gov.pk)"
+        },
+        {
+          "gate": "DOCUMENT_INTEGRITY_GATE",
+          "passed": true,
+          "details": "SHA256 verified (906dbc984d98...)"
+        },
+        {
+          "gate": "PRODUCT_PAIR_GATE",
+          "passed": true,
+          "details": "Both Petrol and HSD prices present"
+        },
+        {
+          "gate": "NUMERIC_VALIDITY_GATE",
+          "passed": true,
+          "details": "Prices within plausible range"
+        },
+        {
+          "gate": "MATHEMATICAL_GATE",
+          "passed": true,
+          "details": "Arithmetic verified or not applicable (single price)",
+          "subchecks": {
+            "petrol": {
+              "applicable": true,
+              "valid": true,
+              "previous_price": "341.98",
+              "change": "1.12",
+              "expected_new_price": "343.10",
+              "actual_new_price": "343.10",
+              "diff": "0.00",
+              "tolerance": "0.01",
+              "reason": "ARITHMETIC_CONSISTENCY_VERIFIED"
+            },
+            "hsd": {
+              "applicable": true,
+              "valid": true,
+              "previous_price": "370.69",
+              "change": "1.11",
+              "expected_new_price": "371.80",
+              "actual_new_price": "371.80",
+              "diff": "0.00",
+              "tolerance": "0.01",
+              "reason": "ARITHMETIC_CONSISTENCY_VERIFIED"
+            }
+          }
+        },
+        {
+          "gate": "RAW_EVIDENCE_GATE",
+          "passed": true,
+          "details": "Raw snippets preserved for extracted values"
+        },
+        {
+          "gate": "AMBIGUITY_GATE",
+          "passed": true,
+          "details": "No ambiguous values detected"
+        }
+      ],
+      "failureReasons": []
+    },
+    "validationSummary": {
+      "isValid": true,
+      "finalStatus": "OFFICIALLY_VERIFIED_CANDIDATE",
+      "gates": [
+        {
+          "gate": "SOURCE_DOMAIN_GATE",
+          "passed": true,
+          "details": "Authorized official domain (petroleum.gov.pk)"
+        },
+        {
+          "gate": "DOCUMENT_INTEGRITY_GATE",
+          "passed": true,
+          "details": "SHA256 verified (906dbc984d98...)"
+        },
+        {
+          "gate": "PRODUCT_PAIR_GATE",
+          "passed": true,
+          "details": "Both Petrol and HSD prices present"
+        },
+        {
+          "gate": "NUMERIC_VALIDITY_GATE",
+          "passed": true,
+          "details": "Prices within plausible range"
+        },
+        {
+          "gate": "MATHEMATICAL_GATE",
+          "passed": true,
+          "details": "Arithmetic verified or not applicable (single price)",
+          "subchecks": {
+            "petrol": {
+              "applicable": true,
+              "valid": true,
+              "previous_price": "341.98",
+              "change": "1.12",
+              "expected_new_price": "343.10",
+              "actual_new_price": "343.10",
+              "diff": "0.00",
+              "tolerance": "0.01",
+              "reason": "ARITHMETIC_CONSISTENCY_VERIFIED"
+            },
+            "hsd": {
+              "applicable": true,
+              "valid": true,
+              "previous_price": "370.69",
+              "change": "1.11",
+              "expected_new_price": "371.80",
+              "actual_new_price": "371.80",
+              "diff": "0.00",
+              "tolerance": "0.01",
+              "reason": "ARITHMETIC_CONSISTENCY_VERIFIED"
+            }
+          }
+        },
+        {
+          "gate": "RAW_EVIDENCE_GATE",
+          "passed": true,
+          "details": "Raw snippets preserved for extracted values"
+        },
+        {
+          "gate": "AMBIGUITY_GATE",
+          "passed": true,
+          "details": "No ambiguous values detected"
+        }
+      ],
+      "failureReasons": []
+    }
+  },
+  "rejection_reasons": [
+    "DOWNLOAD_FAILED: https://petroleum.gov.pk/SiteImage/Misc/files/PL%20Notification%205-21ugust%202026.pdf (HTTP_ERROR_404: Not Found)",
+    "DOWNLOAD_FAILED: https://petroleum.gov.pk/SiteImage/Misc/files/Prices%20of%20Petroleum%20Products%20and%20Petroleum%20Levy%20Notification%20w_e_f%20%204th%20July%2C%202026.pdf (HTTP_ERROR_404: Not Found)",
+    "Ministry of Energy (Petroleum Division): MATHEMATICAL_VALIDATION_FAILED: PETROL arithmetic failed (MATHEMATICAL_MISMATCH: Calculated 85.00 vs Actual 88.64 (diff 3.64 > 0.01)); MATHEMATICAL_VALIDATION_FAILED: HSD arithmetic failed (MATHEMATICAL_MISMATCH: Calculated 75.82 vs Actual 79.46 (diff 3.64 > 0.01))"
+  ],
+  "errors": [
+    "STRATEGY_1_FAILED: DOCUMENT_SIZE_LIMIT_EXCEEDED: Exceeded maximum permitted limit of 5242880 bytes on https://petroleum.gov.pk/Detail/ODg4OTBmZjMtZDYwMS00NGFhLThmOTctNWZhYWE4ZGIxNWUz"
+  ],
+  "duration_seconds": 28.288
+}
