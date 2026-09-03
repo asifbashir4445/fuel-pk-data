@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-09-03T15:38:52.076863+00:00",
+  "last_updated": "2026-09-03T20:24:48.862098+00:00",
   "total_candidates_recorded": 13,
   "candidates": [
     {
@@ -85,7 +85,7 @@
           "MATHEMATICAL_VALIDATION_FAILED: HSD arithmetic failed (MATHEMATICAL_MISMATCH: Calculated 75.82 vs Actual 79.46 (diff 3.64 > 0.01))"
         ]
       },
-      "recorded_at": "2026-09-03T15:38:52.076689+00:00"
+      "recorded_at": "2026-09-03T20:24:48.861939+00:00"
     },
     {
       "candidate_id": "489b17d50d795e98",
