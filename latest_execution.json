@@ -1,6 +1,6 @@
 {
-  "execution_id": "exec_20260906_022440",
-  "timestamp_utc": "2026-09-06T02:24:40.074069+00:00",
+  "execution_id": "exec_20260906_100605",
+  "timestamp_utc": "2026-09-06T10:06:05.050756+00:00",
   "mode": "live",
   "decision": "SOURCE_UNREACHABLE",
   "source_connectivity": {
@@ -210,5 +210,5 @@
   "errors": [
     "PREFLIGHT_CONNECTIVITY_FAILED: Connection failed to petroleum.gov.pk:443 (OSError: [Errno 101] Network is unreachable)"
   ],
-  "duration_seconds": 4.007
+  "duration_seconds": 4.003
 }
