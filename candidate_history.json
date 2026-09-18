@@ -1,8 +1,58 @@
 {
   "version": "1.0",
-  "last_updated": "2026-09-18T02:42:09.853574+00:00",
-  "total_candidates_recorded": 13,
+  "last_updated": "2026-09-18T10:24:36.971210+00:00",
+  "total_candidates_recorded": 14,
   "candidates": [
+    {
+      "candidate_id": "d5530e9ff7bbbd82",
+      "title": "Ministry of Energy (Petroleum Division)",
+      "document_url": "https://petroleum.gov.pk/SiteImage/NewsEvents/Petrol_17.9.2026.jpeg",
+      "source_page_url": "https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
+      "detail_page_url": "https://petroleum.gov.pk/NewsDetail/NTExNmQzZTQtOWQ0MS00OTM5LTlhMjMtOTM1MDM2ZjJiN2Mx",
+      "document_sha256": "b9559d9d785c30631c206bf712b63746a499b65abbd66154414ffd880c35a048",
+      "document_type": "IMAGE",
+      "effective_date": null,
+      "status": "REJECTED_UNVERIFIABLE",
+      "rejection_reason": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD",
+      "is_actionable": false,
+      "published_to_current": false,
+      "validation_summary": {
+        "isValid": false,
+        "finalStatus": "INCOMPLETE_PRODUCT_EXTRACTION",
+        "gates": [
+          {
+            "gate": "SOURCE_DOMAIN_GATE",
+            "passed": true,
+            "details": "Authorized official domain (petroleum.gov.pk)"
+          },
+          {
+            "gate": "DOCUMENT_INTEGRITY_GATE",
+            "passed": true,
+            "details": "SHA256 verified (b9559d9d785c...)"
+          },
+          {
+            "gate": "PRODUCT_PAIR_GATE",
+            "passed": false,
+            "details": "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+          },
+          {
+            "gate": "MATHEMATICAL_GATE",
+            "passed": true,
+            "details": "Arithmetic verified or not applicable (single price)",
+            "subchecks": {}
+          },
+          {
+            "gate": "AMBIGUITY_GATE",
+            "passed": true,
+            "details": "No ambiguous values detected"
+          }
+        ],
+        "failureReasons": [
+          "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
+        ]
+      },
+      "recorded_at": "2026-09-18T10:24:36.971053+00:00"
+    },
     {
       "candidate_id": "f16f21266e2e44d3",
       "title": "Ministry of Energy (Petroleum Division)",
