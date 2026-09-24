@@ -1,14 +1,14 @@
 {
-  "execution_id": "exec_20260924_161905",
-  "timestamp_utc": "2026-09-24T16:19:05.361044+00:00",
+  "execution_id": "exec_20260924_210218",
+  "timestamp_utc": "2026-09-24T21:02:18.946951+00:00",
   "mode": "live",
   "decision": "ALL_CANDIDATES_UNVERIFIABLE",
   "source_connectivity": {
     "reachable": true,
     "host": "petroleum.gov.pk",
     "port": 443,
-    "latency_ms": 268.9,
-    "details": "Successfully connected to petroleum.gov.pk:443 (268.9 ms)"
+    "latency_ms": 274.58,
+    "details": "Successfully connected to petroleum.gov.pk:443 (274.58 ms)"
   },
   "discovery_summary": {
     "strategy": "ALL",
@@ -26,7 +26,7 @@
       "title": "Petroleum Levy Notifications from 5th-21st August, 2026",
       "notificationDate": "2026-08-21",
       "effectiveDate": null,
-      "discoveryTimestamp": "2026-09-24T16:19:11.331602+00:00",
+      "discoveryTimestamp": "2026-09-24T21:02:25.219888+00:00",
       "documentFilename": "PL%20Notification%205-21ugust%202026.pdf",
       "documentType": "PDF",
       "documentHash": null,
@@ -57,7 +57,7 @@
       "title": "Ministry of Energy (Petroleum Division)",
       "notificationDate": "2026-09-17",
       "effectiveDate": null,
-      "discoveryTimestamp": "2026-09-24T16:19:12.437817+00:00",
+      "discoveryTimestamp": "2026-09-24T21:02:26.358496+00:00",
       "documentFilename": "Petrol_17.9.2026.jpeg",
       "documentType": "IMAGE",
       "documentHash": "b9559d9d785c30631c206bf712b63746a499b65abbd66154414ffd880c35a048",
@@ -102,7 +102,7 @@
         "notificationReference": "PRESS RELEASE",
         "publicationDate": "2026-09-16",
         "effectiveDate": "2026-09-17",
-        "extractedAt": "2026-09-24T16:19:23.640487+00:00",
+        "extractedAt": "2026-09-24T21:02:37.112551+00:00",
         "products": {
           "petrol": {
             "officialName": null,
@@ -129,7 +129,7 @@
         },
         "extractionMethod": "IMAGE_OCR_TABLE_PARSER",
         "status": "INCOMPLETE_PRODUCT_EXTRACTION",
-        "validatedAt": "2026-09-24T16:19:23.641016+00:00",
+        "validatedAt": "2026-09-24T21:02:37.113086+00:00",
         "validationSummary": {
           "isValid": false,
           "finalStatus": "INCOMPLETE_PRODUCT_EXTRACTION",
@@ -176,7 +176,7 @@
       "title": "Ministry of Energy (Petroleum Division)",
       "notificationDate": "2026-08-27",
       "effectiveDate": null,
-      "discoveryTimestamp": "2026-09-24T16:19:13.524093+00:00",
+      "discoveryTimestamp": "2026-09-24T21:02:27.458744+00:00",
       "documentFilename": "Petrol_26-27.8.2026.jpeg",
       "documentType": "IMAGE",
       "documentHash": "906dbc984d988b6a639ea3f029c2bc42f962d17e4ddb2f65752fd910a5321a3f",
@@ -224,7 +224,7 @@
       "title": "Ministry of Energy (Petroleum Division)",
       "notificationDate": null,
       "effectiveDate": "2026-07-04",
-      "discoveryTimestamp": "2026-09-24T16:19:14.652345+00:00",
+      "discoveryTimestamp": "2026-09-24T21:02:28.603898+00:00",
       "documentFilename": "Prices of Petroleum Products and Petroleum Levy Notification w.e.f  4th July, 2026.jpg",
       "documentType": "IMAGE",
       "documentHash": "417f9b95933a27770b46f35f03b07135ecfafddffe9a04a6e4b2727cac25a8d7",
@@ -272,7 +272,7 @@
       "title": "Ministry of Energy (Petroleum Division)",
       "notificationDate": null,
       "effectiveDate": null,
-      "discoveryTimestamp": "2026-09-24T16:19:14.652410+00:00",
+      "discoveryTimestamp": "2026-09-24T21:02:28.603964+00:00",
       "documentFilename": "Prices%20of%20Petroleum%20Products%20and%20Petroleum%20Levy%20Notification%20w_e_f%20%204th%20July%2C%202026.pdf",
       "documentType": "PDF",
       "documentHash": null,
@@ -307,7 +307,7 @@
     "title": "Petroleum Levy Notifications from 5th-21st August, 2026",
     "notificationDate": "2026-08-21",
     "effectiveDate": null,
-    "discoveryTimestamp": "2026-09-24T16:19:11.331602+00:00",
+    "discoveryTimestamp": "2026-09-24T21:02:25.219888+00:00",
     "documentFilename": "PL%20Notification%205-21ugust%202026.pdf",
     "documentType": "PDF",
     "documentHash": null,
@@ -526,5 +526,5 @@
   "errors": [
     "STRATEGY_1_FAILED: DOCUMENT_SIZE_LIMIT_EXCEEDED: Exceeded maximum permitted limit of 5242880 bytes on https://petroleum.gov.pk/Detail/ODg4OTBmZjMtZDYwMS00NGFhLThmOTctNWZhYWE4ZGIxNWUz"
   ],
-  "duration_seconds": 22.473
+  "duration_seconds": 22.282
 }
