@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-25T20:16:53.811819+00:00",
+  "last_updated": "2026-10-26T02:43:23.556896+00:00",
   "total_candidates_recorded": 14,
   "candidates": [
     {
@@ -51,7 +51,7 @@
           "INCOMPLETE_PRODUCT_EXTRACTION: Missing required product(s): Petrol, HSD"
         ]
       },
-      "recorded_at": "2026-10-25T20:16:53.811662+00:00"
+      "recorded_at": "2026-10-26T02:43:23.556720+00:00"
     },
     {
       "candidate_id": "f16f21266e2e44d3",
