@@ -1,14 +1,14 @@
 {
-  "execution_id": "exec_20261107_040714",
-  "timestamp_utc": "2026-11-07T04:07:14.665268+00:00",
+  "execution_id": "exec_20261107_121713",
+  "timestamp_utc": "2026-11-07T12:17:13.192097+00:00",
   "mode": "live",
   "decision": "ALL_CANDIDATES_UNVERIFIABLE",
   "source_connectivity": {
     "reachable": true,
     "host": "petroleum.gov.pk",
     "port": 443,
-    "latency_ms": 273.8,
-    "details": "Successfully connected to petroleum.gov.pk:443 (273.8 ms)"
+    "latency_ms": 202.61,
+    "details": "Successfully connected to petroleum.gov.pk:443 (202.61 ms)"
   },
   "discovery_summary": {
     "strategy": "ALL",
@@ -26,7 +26,7 @@
       "title": "Direct Official Price Notification PDF",
       "notificationDate": "2026-06-26",
       "effectiveDate": null,
-      "discoveryTimestamp": "2026-11-07T04:07:45.770049+00:00",
+      "discoveryTimestamp": "2026-11-07T12:17:44.054711+00:00",
       "documentFilename": "Petrol%20Notification-1%2026_6_2026.pdf",
       "documentType": "PDF",
       "documentHash": null,
@@ -58,7 +58,7 @@
     "title": "Direct Official Price Notification PDF",
     "notificationDate": "2026-06-26",
     "effectiveDate": null,
-    "discoveryTimestamp": "2026-11-07T04:07:45.770049+00:00",
+    "discoveryTimestamp": "2026-11-07T12:17:44.054711+00:00",
     "documentFilename": "Petrol%20Notification-1%2026_6_2026.pdf",
     "documentType": "PDF",
     "documentHash": null,
@@ -277,5 +277,5 @@
     "STRATEGY_1_FAILED: CONNECTION_OR_NETWORK_ERROR: _ssl.c:1001: The handshake operation timed out on https://petroleum.gov.pk/Detail/MDQwOGNiMTMtYWYxOC00M2Y2LWIxNTEtMGVkZTUxNjE2YzQy",
     "STRATEGY_2_FAILED: CONNECTION_OR_NETWORK_ERROR: _ssl.c:1001: The handshake operation timed out"
   ],
-  "duration_seconds": 41.377
+  "duration_seconds": 41.083
 }
